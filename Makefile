@@ -1,7 +1,9 @@
 NAME=sample
 
-all:
+build: clean
 	GOOS=linux go build -o bin/${NAME}
+
+all: build
 
 clean:
 	rm -rfv bin
