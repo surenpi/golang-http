@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: https://index.docker.io/surenpi/golang-http-sample
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: golang-http-sample
